@@ -32,11 +32,17 @@
 %if "%{?doPython2:set}" != "set"
 Requires: python
 %define doPython2 yes
+%if "%{?py2requires:set}" == "set"
+Requires: %{?py2requires:%py2requires}
+%endif
 %endif
 
 %if "%{?doPython3:set}" != "set"
 Requires: python3
 %define doPython3 yes
+%if "%{?py3requires:set}" == "set"
+Requires: %{?py3requires:%py3requires}
+%endif
 %endif
 
 %if "%{?source0:set}" != "set"
