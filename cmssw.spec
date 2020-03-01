@@ -1,4 +1,4 @@
-### RPM cms cmssw CMSSW_10_1_0_pre1
+### RPM cms cmssw CMSSW_11_1_X_2020-03-01-0000
 
 Requires: cmssw-tool-conf python cms-git-tools cmssw-osenv
 
