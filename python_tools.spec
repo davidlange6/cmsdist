@@ -23,7 +23,7 @@ Requires: py3-pandas
 Requires: py3-Bottleneck
 Requires: py3-downhill
 Requires: py3-theanets
-Requires: py2-xgboost py3-xgboost
+Requires: py3-xgboost
 Requires: py3-llvmlite
 Requires: py3-numba
 Requires: py3-hep_ml
@@ -69,10 +69,9 @@ Requires: py3-mistune
 Requires: py3-nbconvert
 Requires: py3-nbformat
 Requires: py3-notebook
-Requires: py3-ordereddict
 Requires: py2-packaging
 Requires: py3-pandocfilters
-Requires: py2-pathlib2
+Requires: py3-pathlib2
 Requires: py3-pexpect
 Requires: py3-pickleshare
 Requires: py3-prompt_toolkit
@@ -80,7 +79,7 @@ Requires: py3-ptyprocess
 Requires: py2-pyparsing
 Requires: py3-pyzmq
 Requires: py3-qtconsole
-Requires: py2-scandir
+Requires: py3-scandir
 Requires: py2-setuptools
 Requires: py3-setuptools
 Requires: py3-simplegeneric
@@ -111,7 +110,7 @@ Requires: py3-pbr
 Requires: py3-mpmath
 Requires: py3-sympy
 Requires: py3-tqdm
-Requires: py2-funcsigs
+Requires: py3-funcsigs
 Requires: py3-nose
 Requires: py3-pkgconfig
 Requires: py2-pysqlite
@@ -120,11 +119,11 @@ Requires: py3-jsonpickle
 Requires: py3-prwlock
 Requires: py3-virtualenv
 Requires: py3-virtualenvwrapper
-Requires: py2-urllib3
+Requires: py3-urllib3
 Requires: py3-chardet
 Requires: py3-idna
 Requires: py3-Werkzeug
-Requires: py2-pytest
+Requires: py3-pytest
 Requires: py3-avro
 Requires: py3-fs
 Requires: py3-lizard
@@ -142,7 +141,7 @@ Requires: py3-pylint
 Requires: py2-pip
 Requires: py3-pip
 %ifarch x86_64
-Requires: py2-cx-Oracle
+Requires: py3-cx-Oracle
 %endif
 Requires: py2-cython
 Requires: py2-future
@@ -153,13 +152,13 @@ Requires: py3-autopep8
 Requires: py3-pycodestyle
 Requires: py3-lz4
 Requires: py3-ply
-Requires: py2-py
-Requires: py2-typing
+Requires: py3-py
+Requires: py3-typing
 Requires: py3-defusedxml
-Requires: py2-atomicwrites
-Requires: py2-attrs
+Requires: py3-atomicwrites
+Requires: py3-attrs
 Requires: py3-nbdime
-Requires: py2-onnx
+Requires: py3-onnx
 Requires: py3-onnxmltools
 Requires: py2-backports
 Requires: py3-colorama
@@ -169,15 +168,15 @@ Requires: py3-GitPython py3-GitPython
 Requires: py3-Send2Trash
 Requires: py3-ipaddress
 Requires: py3-mccabe
-Requires: py2-more-itertools
-Requires: py2-pluggy
+Requires: py3-more-itertools
+Requires: py3-pluggy
 Requires: py3-prometheus_client
 Requires: py3-pyasn1-modules
-Requires: py2-pyasn1
+Requires: py3-pyasn1
 Requires: py3-pyflakes
 Requires: py3-smmap2
 Requires: py3-stevedore
-Requires: py2-typing_extensions
+Requires: py3-typing_extensions
 Requires: py3-virtualenv-clone
 Requires: py3-asn1crypto
 Requires: py3-backcall
@@ -186,7 +185,7 @@ Requires: py2-google-common
 Requires: py3-jedi
 Requires: py3-parso
 Requires: py3-pycparser
-Requires: py2-absl-py
+Requires: py3-absl-py
 Requires: py3-gast
 Requires: py2-grpcio
 Requires: py2-grpcio-tools
